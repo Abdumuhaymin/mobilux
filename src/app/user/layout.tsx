@@ -7,7 +7,7 @@ const UserLayout = ({
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
-  const [clickedIndex, setClickedIndex] = useState(null);
+  const [clickedIndex, setClickedIndex] = useState(0);
 
   return (
     <div className="bg-bg h-[100%]">
